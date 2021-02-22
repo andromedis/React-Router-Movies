@@ -20,7 +20,7 @@ function MovieDetails(props) {
   const history = useHistory();
 
   const routeToMovie = (id) => {
-    console.log(history);
+    console.log(history);           // TODO: Cleanup here
     console.log(id);
     history.push(`/movies/${id}`);
     console.log(history);
